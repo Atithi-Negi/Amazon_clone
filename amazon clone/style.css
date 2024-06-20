@@ -1,0 +1,474 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+
+}
+
+#deliver{
+    font-size: 12px;
+    color: #CCCCCC;
+    margin-left: 15px;
+
+}
+.locologo{
+    margin-top: 8px;
+    height: 15px;
+    width: 18px;
+    
+}
+.border:hover{
+    border: 1px solid white;
+}
+#india{
+    font-size: 14px;
+    color: #FFFFFF;
+
+}
+.nav-search{
+    height: 60px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.select-list{
+    width: 45px;
+    height: 40px;
+    /* padding-left: 5px; */
+    color: #0F1111;
+    background-color: #E6E6E6;
+    border: none;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search-box{
+    width: 100%;
+    height: 21px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    
+}
+.search-icon{
+    
+    width: 45px;
+    height: 42px;
+    background-color: #febd68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0F1111;
+    
+}
+
+#search-logo{
+    height: 40px;
+    width: 45px;
+}
+.hellosignin{
+    font-size: 12px;
+    color: #FFFFFF;
+    
+
+}
+.acc-acc-list{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.cart-logo{
+    font-size: 30px;
+}
+.cart{
+    display: flex;
+    align-items: baseline;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-right: 11px;
+}
+.nav-search:hover{
+    border: 1px solid orange;
+}
+
+.nav-anchor{
+    padding-left: 11px;
+    height: 39px;
+    background-color: #0F1111;
+    opacity: 90%;
+    display: flex;
+}
+.list-all{
+    width: 58.41px;
+    height: 39px;
+
+}
+.links{
+    display: flex;
+    height: 39px;
+    width: 1244px;
+}
+.design{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 9px;
+    padding-right: 9px;
+    color: #FFFFFF;
+    
+}
+.background{
+    background-color: #E3E6E6;
+    width: 100%;
+    height: 385px;
+    display: flex;
+    justify-content: center;
+}
+.back-img{
+    height: 350px;
+    width: 1500px;
+    background-image: url("back my.jpg");
+    z-index: 0.5;
+    display: flex;
+    align-items: flex-end;
+    
+    
+    
+}
+.con-box1{
+    height: 385px;
+    width: 360px;
+    background-color: #FFFFFF;
+    /* z-index: 1; */ 
+}
+/* .seperater{
+    margin-left: 20px;
+} */
+.back-design{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.background .back-box1{
+    justify-content: left;
+}
+.content{
+    background-color: #E3E6E6;
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    justify-content: center;
+}
+.inner-con{
+    background-color: rgba(23, 206, 206, 0);
+    width: 1500px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    
+    
+}
+.con-box-heading{
+    height: 27px;
+    width: 320px;
+    
+}
+.con-box-seemore{
+    height: 16px;
+    width: 320px;
+    
+
+}
+.k{
+    width: 155px;
+    height: 125px;
+    margin-left: 15px;
+    background-color: aqua;
+}
+#okk{
+    margin-left: 15px;
+    font-size: 12px;
+    color: #0F1111;
+}
+.con-box-con{
+    
+    
+    
+}
+.firstrow{
+    display: flex;
+}
+.secondrow{
+    display: flex;
+}
+.con-box1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.con-box-heading{
+    margin-left: 15px;
+    font-size: 21px;
+    color: #0F1111;
+    font-weight: 700;
+}
+.con-box-seemore{
+    margin-left: 15px;
+    color: #007185;
+    font-size: 13px;
+}
+.one{
+    background-image: url("Fuji_Quad_Headset_2x._SY232_CB667159060_.jpg");
+    background-size: cover;
+}
+.two{
+    background-image: url("Fuji_Quad_Keyboard_2x._SY232_CB667159063_.jpg");
+    background-size: cover;
+}
+.three{
+    background-image: url("Fuji_Quad_Mouse_2x._SY232_CB667159063_.jpg");
+    background-size: cover;
+}
+.four{
+    background-image: url("Fuji_Quad_Chair_2x._SY232_CB667159060_.jpg");
+    background-size: cover;
+}
+.five{
+    background-image: url("dinig.jpg");
+    background-size: cover;
+    
+}
+.six{
+    background-image: url("home.jpg");
+    background-size: cover;
+    
+}
+.seven{
+    background-image: url("kitchen.jpg");
+    background-size: cover;
+    
+}
+.eight{
+    background-image: url("health.jpg");
+    background-size: cover;
+    
+}
+.nine{
+    background-image: url("jeans.jpg");
+    background-size: cover;
+}
+.ten{
+    background-image: url("tops.jpg");
+    background-size: cover;
+}
+.eleven{
+    background-image: url("dresses.jpg");
+    background-size: cover;
+}
+.twelve{
+    background-image: url("shoes.jpg");
+    background-size: cover;
+}
+.thirteen{
+    background-image: url("pc.jpg");
+    background-size: cover;
+    height: 280px;
+    width: 320px;
+    margin-left: 20px;
+    
+}
+
+.secondrowcontent{
+    padding-top: 20px;
+}
+/* footer */
+.back-to-top{
+    height: 19px;
+    background-color: #0F1111;
+    opacity: 90%;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+.footer{
+    background-color: #232F3E;
+    height: 1011px;
+    width: 100%;
+    
+}
+.foot-logo-k{
+    background-color: #232F3E;
+    height: 68px;
+    width: 1000px;
+    /* border: 2px solid black; */
+    margin-top: 10PX;
+    margin-bottom: 10PX;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foot-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.footers-links{
+    /* border: 2px solid black; */
+    height: 317px;
+    width: 100%;
+    background-color: #131A22;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-bottom{
+    height: 37px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    /* border: 2px solid black; */
+    background-color: #131A22;
+}
+/* .innerfooter{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+} */
+.getknowus{
+    background-color: #232F3E;
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid orange; */
+    display: flex;
+    align-items: center;justify-content: space-around;
+}
+.foot-logo{
+    border-top: 1px solid #334862;
+}
+.lofo-footer{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 68px;
+    width: 120px;
+    padding-left: 7px;
+    padding: right 7px; ;
+}
+.usd-button1{
+    margin-left: 50px;
+}
+.footer-button{
+    background-color: #232F3E;
+    height: 40px;
+    width: 140px;
+    padding-right: 18px;
+    padding-left: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 1px solid rgb(154, 154, 154);
+    color: #FFFFFF;
+    margin-left: 15px;
+}
+.footbutton{
+    display: flex;
+}
+.gtns{
+    height: 318px;
+    width: 125px;
+    /* border: 1px solid orange; */
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 150px;
+}
+.mmws{
+    height: 318px;
+    width: 175px;
+    /* border: 1px solid rgb(138, 198, 194); */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.app{
+    height: 318px;
+    width: 202px;
+    /* border: 1px solid rgb(17, 0, 255); */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.luhy{
+    height: 318px;
+    width: 137PX;
+    /* border: 1px solid rgb(255, 0, 0); */
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 150px;
+}
+.getknowus-links{
+    font-size: 14px;
+    color: #DDDDDD;
+    padding: 5px 0 5px 0;
+}
+.getknowus-heading{
+    margin: 6px 0 14px 0;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer-bottom-copy{
+    font-size: 12px;
+    color: #DDDDDD;
+    padding: 0 7.2px 0 7.2px;
+}
+.div{
+    
+}
+.footer-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footers-links-text{
+    font-size: 12px;
+    color: #999999;
+}
+.footers-links-heading{
+    font-size: 12px;
+    color: #DDDDDD;
+    font-weight: 400;
+}
+.boxxxx1{
+    padding: 0 9px 0 9px;
+}
+.footers-links{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+}
